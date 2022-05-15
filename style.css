@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+.navbar{
+    position: fixed;
+    z-index: 1;
+}
+.carousel img{
+    display: inline-block;
+    position:relative;
+    top: 4rem;
+}
 .carousel-item img{
     width: 100%;
     height:90vh;
@@ -26,6 +35,18 @@
     height: 40vh;
     border-radius: 20%;
 }
+.Workers img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20%;
+}
+.docs{
+    text-decoration: none;
+}
+
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
