@@ -6,12 +6,13 @@
 }
 .navbar{
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
+    width: 100%;
 }
 .carousel img{
     display: inline-block;
     position:relative;
-    top: 4rem;
+    margin-top: 4rem;
 }
 .carousel-item img{
     width: 100%;
