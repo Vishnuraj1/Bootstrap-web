@@ -12,6 +12,7 @@
         <script src="https://kit.fontawesome.com/98f76a3340.js" crossorigin="anonymous"></script>
     <title>Mock up site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -110,7 +111,7 @@
 
     <!-- About us section created successfully -->
 
-    <section id="About-section">
+    <section id="About-section" data-aos="fade-left">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">About us</h1>
@@ -147,7 +148,7 @@
 
     <!-- Our sevice section  created successfully-->
 
-    <section id="Service-section">
+    <section id="Service-section" data-aos="fade-right">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">Our Services</h1>
@@ -282,7 +283,7 @@
 
      <!-- Creators section created successfully -->
 
-     <section id="Creators-section">
+     <section id="Creators-section" data-aos="fade-up">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">Creators</h1>
@@ -332,7 +333,7 @@
 
     <!-- contact us section created successfully -->
 
-    <section id="ContactUs-section">
+    <section id="ContactUs-section" data-aos="fade-down">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">Contact us</h1>
@@ -441,6 +442,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- Always keep the script for an action keep in the end of the Body(not the link) -->
 
@@ -455,6 +457,12 @@
                 $(".navbar-collapse").collapse('hide');
             });
         </script>
+        <script>
+            AOS.init({
+              duration: 3000,
+              once: true,
+            });
+          </script>
 </body>
 
 </html>
