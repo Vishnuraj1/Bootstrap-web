@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body class="js-scroll-trigger" onclick="click()">
 
     <!-- navbar created -->
     <header>
@@ -63,7 +63,7 @@
 </header>
     <!-- header created successfully -->
 
-    <section id="Home-section">
+    <section id="Home-section" data-aos="fade">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -111,7 +111,7 @@
 
     <!-- About us section created successfully -->
 
-    <section id="About-section" data-aos="fade-left">
+    <section id="About-section" data-aos="slide-up">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">About us</h1>
@@ -123,10 +123,10 @@
 
     <div class="container">
         <div class="row my-5">
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6" data-aos="slide-right">
                 <img src="img/sebastian-pena-lambarri-Am6DHuyQBA8-unsplash.jpg" alt="" class=" img-fluid imgSec2">
             </div>
-            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6" data-aos="slide-left">
                 <h1 class="text-center">Marvel studios</h1>
                 <p class="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nulla dolore fugit vitae.
                     Modi, harum!
@@ -160,7 +160,26 @@
         <div class="row pt-5">
 
             <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
+                    <div class="row">
+                        <div class="col-md-4" >
+                            <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Who we are">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
@@ -179,26 +198,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="Who we are">Read more</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
@@ -219,7 +219,7 @@
 
          <div class="row pt-5">
             <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
@@ -238,7 +238,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
@@ -257,7 +257,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xxl-4 col-12">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="slide-up">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/pxfuel.com.jpg" class="img-fluid rounded-start" alt="...">
@@ -283,7 +283,7 @@
 
      <!-- Creators section created successfully -->
 
-     <section id="Creators-section" data-aos="fade-up">
+     <section id="Creators-section" data-aos="zoom-out">
         <div class="container">
             <hr>
             <h1 class="text-center display-5">Creators</h1>
@@ -292,11 +292,11 @@
    
     <div class="container Creator ">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-xxl-6 col-12 ">
+            <div class="col-lg-6 col-md-6 col-xxl-6 col-12 " data-aos="zoom-in-left">
                 <img src="img/vr.jpg" alt="" >
                 <h2 class="text-center">Co-founder</h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-xxl-6 col-12">
+            <div class="col-lg-6 col-md-6 col-xxl-6 col-12" data-aos="zoom-in-right">
                 <img src="img/kotta (2).jpg" alt="">
                 <h2 class="text-center">Co-founder</h2>
             </div>
@@ -390,7 +390,7 @@
         <footer class="Footer">
             <div class="container">
               <div class="row">
-                <div class="col-md-4 col-6">
+                <div class="col-md-4 col-6" data-aos="zoom-in">
                   <div class="icon p-5">
                     <img src="img/sheri-unsplash.jpg" alt=""
                       style="height: 100px; width: 100px; border-radius: 5px;">
@@ -398,7 +398,7 @@
                 </div>
                 <div class="col-md-4 col-6">
                   <div class="copyrights">
-                    <div class="container p-5">
+                    <div class="container p-5" data-aos="zoom-out">
                       <!--class docs is for to remove text decoration-->
                       <a href="" class="link-dark docs m-2">Privacy Policy</a>
                       <a href="" class="link-dark docs m-2">Terms of use</a>
@@ -411,8 +411,8 @@
                 <div class="col-md-4">
                   <div class="social-links">
         
-                    <div class="container py-3 my-4">
-                      <div class="row ">
+                    <div class="container py-3 my-4" data-aos="zoom-in-left">
+                      <div class="row " >
                         <div class="icon text-center text-body pt-5">
                           <i class="fa-brands fa-facebook fa-2xl"></i>
                           <i class="fa-brands fa-instagram  fa-2xl"></i>
