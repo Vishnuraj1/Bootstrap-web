@@ -35,20 +35,10 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#About-section" onclick="click()">About us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item js-scroll-trigger" href="#Service-section" onclick="click()">Services</a></li>
-                            <li><a class="dropdown-item" href="#">Previos works</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Service-section" onclick="click()">services</a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#Creators-section" onclick="click()">Creators</a>
                     </li>
@@ -63,7 +53,7 @@
 </header>
     <!-- header created successfully -->
 
-    <section id="Home-section" data-aos="fade">
+    <section id="Home-section" >
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -460,9 +450,13 @@
         <script>
             AOS.init({
               duration: 3000,
-              once: true,
+            //   once: true,
             });
           </script>
+
+          <!-- <script>
+            AOS.init();
+          </script> -->
 </body>
 
 </html>
